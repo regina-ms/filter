@@ -40,7 +40,6 @@ export default function Portfolio(props) {
 
 function Toolbar(props) {
     const { filters, selected, onSelectFilter } = props;
-    console.log(selected)
 
     return <div className="buttons">
         {
